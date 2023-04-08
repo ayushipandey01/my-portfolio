@@ -20,18 +20,24 @@
       <i class="fas fa-angle-up"></i>
     </div>
     <!--Nav section-->
+ 
+    
     <nav class="navbar" id="navbar">
-      <div class="max-width">
+      <div class="max-width" id="divbar">
         <div class="logo">
           <a href="#">Portfo<span>lio</span></a>
         </div>
+        <div class = "menu-nav">
         <ul class="menu">
+          
           <li><a href="#home" class="menu-btn">Home</a></li>
           <li><a href="#about" class="menu-btn">About</a></li>
-          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#services" class="menu-btn">Projects</a></li>
           <li><a href="#skills" class="menu-btn">Skills</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
         </ul>
+        </div>
+        
       </div>
     </nav>
 
@@ -54,7 +60,7 @@
         <h2 class="title">About me</h2>
         <div class="about-content">
           <div class="column left">
-            <img src="/images/photo.jpg" alt="My Photo" />
+            <img src="/images/photo.jpg" alt="My Photo" class="photo"/>
           </div>
 
           <div class="column right">
@@ -62,7 +68,7 @@
               I'm Ayushi and I'm <span class="typing-2"></span>
             </div>
             <p>
-              I am hardworking engineering graduate from Dayalbagh Educational Institute, Agra. I am currently working with Infosys as Systems Engineer. I am dedicated and passionate about solving issues in creative manner. I am good at HTML,CSS and learning Javascript and ReactJS side by side. I am also good at C++ Programming and have knowledge of SQL commands as well as sharp debugging skills.I have also developed projects in React.JS which you can see in the My Projects section. 
+              I am hardworking engineering graduate from Dayalbagh Educational Institute, Agra. I am currently working with Infosys as Systems Engineer. I am dedicated and passionate about solving issues in creative manner. I am good at HTML,CSS and learning Javascript and ReactJS side by side. I am also good at C++ Programming and have knowledge of SQL commands as well as sharp debugging skills.I have also developed projects in React.JS which you can see in the Mstarty Projects section. 
             </p>
             <a href="https://drive.google.com/file/d/1nIq9AlqrQKZICtExssSco3YYc-8twVOJ/view?usp=share_link" target="_blank">Download CV</a>
           </div>
@@ -79,13 +85,14 @@
             <div class="box">
               <i class="fas fa-paint-brush"></i>
               <div class="text">CLI built apps</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-                cupiditate fuga nesciunt officia quos dolor cumque error amet at
-                nobis.
+              <p class="project-content">
+                <strong>QUIZ : </strong>How well do you know Javascript ? If you are a beginner and just started learning web development, go ahead and test yourself with the Quiz App on basics of Javascript.
+                <br>
+                <br>
+                <strong>Minionese : </strong>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
               </p>
-              <!-- <button class="cli-btn">Live Project</button>
-              <button class="cli-btn">GitHub source code</button> -->
+              <a href="https://replit.com/@AyushiPandey4/Quizify#index.js/?embed=1&output=1" target="_blank">Quiz App</a>
+              <a href="https://banana-speak-nine.vercel.app/" target="_blank">Minionese</a>
             </div>
           </div>
 
@@ -93,11 +100,14 @@
             <div class="box">
               <i class="fas fa-chart-line"></i>
               <div class="text">HTML,CSS and JavaScript</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-                cupiditate fuga nesciunt officia quos dolor cumque error amet at
-                nobis.
-              </p>              
+              <p class="project-content">
+                <strong>Wishing List : </strong>Are you Adventrous ? I think surely you will be . So go ahead and Create your wishlist using this website. Just add , check when its done and delete. All you wishlist will be secured till the time its completed ! 
+                <br>
+                <br>
+                <strong>Javascript programs : </strong> Practice makes a man perfect ! So here you can find some important Javascript coding questions which I have practised.
+              </p>
+              <a href="https://wishing-list.vercel.app/" target="_blank">WishList</a>   
+              <a href="https://github.com/ayushipandey01/JavaScript_basics" target="_blank">JS Programs</a>           
             </div>
           </div>
 
@@ -105,11 +115,18 @@
             <div class="box">
               <i class="fas fa-code"></i>
               <div class="text">React.JS</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-                cupiditate fuga nesciunt officia quos dolor cumque error amet at
-                nobis.
+              <p class="project-content">
+                <strong>Extensry :</strong> is a super cool browser extension that greets you with a message
+                according to the time of the day and shows different background on page
+                refresh. With Extensry you can set your main/focus task of the day ansd also
+                create your own todo.
+                <br>
+                <br>
+                <strong>User details :</strong> is web application made to fetch and display user’s details. Implemented features
+                like searching and opening a pop up modal.
               </p>
+              <a href="https://todo-list-browser-extension.netlify.app/" target="_blank">Extensry</a>
+              <a href="https://github.com/ayushipandey01/Learning-React" target="_blank">User Details</a>
             </div>
           </div>
         </div>
@@ -125,12 +142,25 @@
           <div class="column left">
             <div class="text">My creative skills and experience</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              rem architecto deleniti earum rerum veritatis velit repudiandae
-              minima eligendi, ad dolor eaque natus omnis aspernatur officia
-              iure? Aut, omnis blanditiis.
+              <ul>
+                <li class="skills-para">
+                  HTML & CSS
+                </li>
+                <li class="skills-para">
+                  Javascript
+                </li>
+                <li class="skills-para">
+                  ReactJS
+                </li>
+                <li class="skills-para">
+                  NodeJS
+                </li>
+                <li class="skills-para">
+                  MongoDB
+                </li>
+              </ul>
             </p>
-            <a href="#">Read more</a>
+            <!-- <a href="#">Read more</a> -->
           </div>
           <div class="column right">
             <div class="bars">
@@ -182,10 +212,7 @@
           <div class="column left">
             <div class="text">Get in Touch</div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-              doloribus nihil iste minima, optio nostrum ducimus fugiat vel
-              porro facere voluptatibus numquam voluptate nam molestiae.
-              Sapiente dolore aliquam magni nam.
+              If you find my profile suitable for the role you are looking for you can contact me on the below email address - 
             </p>
             <div class="icons">
               <div class="row">
